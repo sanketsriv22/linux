@@ -1,3 +1,16 @@
 hyprshutdown
+iran-nastaliq-fonts
+neofetch
+otf-tesla
+python-validity
+terminus-font-ttf
+ttf-ancient-fonts
+ttf-cm-unicode
+ttf-envy-code-r
+ttf-inconsolata-g
+ttf-juliamono
+ttf-lilex
+ttf-monaco
+visual-studio-code-bin
 yay
 yay-debug

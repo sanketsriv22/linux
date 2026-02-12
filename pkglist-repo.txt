@@ -1,3 +1,4 @@
+adobe-source-code-pro-fonts
 base
 base-devel
 bluez
@@ -8,11 +9,11 @@ dolphin
 dunst
 efibootmgr
 firefox
-fprintd
 git
 grim
 gst-plugin-pipewire
 htop
+hwinfo
 hyprland
 hyprlauncher
 hyprlock
@@ -29,6 +30,11 @@ ly
 nano
 neovim
 openssh
+otf-font-awesome
+otf-hermit
+otf-latin-modern
+otf-latinmodern-math
+otf-libertinus
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -38,7 +44,18 @@ qt5-wayland
 qt6-wayland
 slurp
 smartmontools
+starship
 sudo
+terminus-font
+ttc-iosevka
+ttf-anonymous-pro
+ttf-cascadia-code
+ttf-dejavu
+ttf-fira-code
+ttf-hack
+ttf-ibm-plex
+ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
 uwsm
 vim
 vulkan-intel
@@ -56,4 +73,6 @@ xf86-video-ati
 xf86-video-nouveau
 xorg-server
 xorg-xinit
+xorg-xrandr
 zram-generator
+zsh
