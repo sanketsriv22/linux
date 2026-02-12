@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-family: "JuliaMono", "Font Awesome 7 Free", "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 window#waybar {
@@ -114,18 +114,19 @@ button:hover {
     margin-right: 0;
 }
 
+/*
 #clock {
     background-color: #64727D;
-}
+} */
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+/*  background-color: #ffffff;
+    color: #000000; */
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
+/*  background-color: #26A65B; */
 }
 
 @keyframes blink {
@@ -151,31 +152,31 @@ button:hover {
 }
 
 #power-profiles-daemon.performance {
-    background-color: #f53c3c;
+/*    background-color: #f53c3c; */
     color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
-    background-color: #2980b9;
+/*    background-color: #2980b9; */
     color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
     background-color: #2ecc71;
-    color: #000000;
+    /*color: #000000;*/
 }
 
 label:focus {
-    background-color: #000000;
+    /*background-color: #000000;*/
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    /*background-color: #2ecc71;*/ /* this is a bright green */
+    /*color: #000000;*/
 }
 
 #memory {
-    background-color: #9b59b6;
+    /*background-color: #9b59b6;*/ /* this is a bright purple */
 }
 
 #disk {
@@ -187,30 +188,35 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+    /*background-color: #2980b9; */ /* this is a bright blue */
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    /*background-color: #f53c3c;*/
+    color: #f53c3c; /* assuming this to be bright red */
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
+    /*background-color: #f1c40f;
     color: #000000;
-}
+*/
+    }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
+/*    background-color: #90b1b1;
     color: #2a5c45;
-}
+*/
+    }
 
 #wireplumber {
-    background-color: #fff0f5;
+/*    background-color: #fff0f5;
     color: #000000;
-}
+*/
+    }
 
 #wireplumber.muted {
-    background-color: #f53c3c;
+/*    background-color: #f53c3c;
+*/
 }
 
 #custom-media {
@@ -228,7 +234,8 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+/*    background-color: #f0932b;
+*/
 }
 
 #temperature.critical {
