@@ -1,6 +1,10 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "modules": [
+    {
+      "type": "host",
+      "format": "{family}"
+    },
     "title",
     "separator",
     "os",
@@ -10,7 +14,6 @@
     "packages",
     "shell",
     "display",
-    "de",
     "wm",
     "wmtheme",
     "theme",
@@ -22,13 +25,18 @@
     "cpu",
     "gpu",
     "memory",
-    "swap",
+    //"swap",
     "disk",
-    "localip",
+    //"localip",
     "battery",
     "poweradapter",
-    "locale",
+    //"locale",
     "break",
     "colors"
-  ]
+  ],
+  "display": {
+    "size": {
+      "binaryPrefix": "jedec"
+    }
+  }
 }
